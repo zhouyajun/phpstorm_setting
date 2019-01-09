@@ -1,0 +1,5 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+</keymap>

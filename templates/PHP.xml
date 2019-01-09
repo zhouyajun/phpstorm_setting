@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="rspacp" value="return $this-&gt;response()-&gt;accecpted();" description="响应接受202" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

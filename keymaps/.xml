@@ -1,0 +1,30 @@
+<keymap version="1" name="自定义快捷键" parent="Mac OS X 10.5+">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="InsertLiveTemplate" />
+  <action id="Macro.格式化并保存">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="ParameterInfo" />
+  <action id="SaveAll" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="com.jetbrains.php.framework.FrameworkRunConsoleAction">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+</keymap>
