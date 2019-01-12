@@ -13,6 +13,9 @@
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="FindNext" />
   <action id="InsertLiveTemplate" />
   <action id="Macro.格式化并保存">
@@ -22,9 +25,6 @@
   <action id="SaveAll" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
-  </action>
-  <action id="StructuralSearchPlugin.StructuralSearchAction">
-    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
