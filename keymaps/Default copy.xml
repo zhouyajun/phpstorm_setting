@@ -14,9 +14,17 @@
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext" />
+  <action id="InsertLiveTemplate" />
+  <action id="Macro.格式化并保存">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="ParameterInfo" />
+  <action id="SaveAll" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="StructuralSearchPlugin.StructuralSearchAction">
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="Vcs.UpdateProject" />
 </keymap>
