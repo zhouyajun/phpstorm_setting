@@ -6,4 +6,13 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="b-input" value="&lt;input type=&quot;$TYPE$&quot; class=&quot;form-control&quot; id=&quot;$ID$&quot; placeholder=&quot;$PLACEHOLDER$&quot;&gt;" description="input" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="enum(&quot;text&quot;,&quot;radio&quot;,&quot;checkbox&quot;,&quot;hidden&quot;,&quot;button&quot;)" defaultValue="text" alwaysStopAt="true" />
+    <variable name="ID" expression="camelCase(&quot;ID&quot;)" defaultValue="ID" alwaysStopAt="true" />
+    <variable name="PLACEHOLDER" expression="camelCase(&quot;PLACEHOLDER&quot;)" defaultValue="PLACEHOLDER" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
