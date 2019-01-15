@@ -15,4 +15,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="b-table" value="&lt;!-- table-responsive 响应式表哥 --&gt;&#10;&lt;div class=&quot;table-responsive&quot;&gt;&#10;&lt;table class=&quot;table table-hover table-bordered table-striped $END$&quot;&gt;&#10;       &lt;tr&gt;&#10;        &lt;th&gt;&lt;/th&gt;&#10;        &lt;th&gt;&lt;/th&gt;&#10;       &lt;/tr&gt;&#10;       &lt;tr&gt;&#10;        &lt;td&gt;&lt;/td&gt;&#10;        &lt;td&gt;&lt;/td&gt;&#10;       &lt;/tr&gt;&#10;&lt;/table&gt;&#10;&lt;/div&gt;" description="bootstrap表格" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
