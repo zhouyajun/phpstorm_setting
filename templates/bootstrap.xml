@@ -1,0 +1,9 @@
+<templateSet group="bootstrap">
+  <template name="b-panel" value="&lt;div class=&quot;panel panel-default$END$&quot;&gt;&#10;  &lt;div class=&quot;panel-heading&quot;&gt;&#10;    &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;panel-body&quot;&gt;&#10;    Panel content&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;panel-footer&quot;&gt;Panel footer&lt;/div&gt;&#10;&lt;/div&gt;" description="panel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
