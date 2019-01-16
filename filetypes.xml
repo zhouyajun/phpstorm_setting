@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
-      <removed_mapping ext="html" approved="true" type="HTML" />
-      <mapping ext="html" type="PHP" />
     </extensionMap>
   </component>
 </application>
