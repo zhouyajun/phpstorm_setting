@@ -9,6 +9,7 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="DatabaseView.PropertiesAction" />
   <action id="Editor SearchWeb">
     <keyboard-shortcut first-keystroke="meta g" />
   </action>
@@ -17,7 +18,9 @@
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="FindNext" />
-  <action id="InsertLiveTemplate" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="Macro.格式化并保存">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
