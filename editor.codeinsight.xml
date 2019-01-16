@@ -2,5 +2,6 @@
   <component name="CodeInsightSettings">
     <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="1" />
+    <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
   </component>
 </application>
