@@ -1,8 +1,8 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="empty@userDefined" key=".nempty" provider="builtin.php" topmost="false">
+    <template id="empty@userDefined" key=".nempty" provider="builtin.php" topmost="true">
       <conditions />
-      <template name="fakeKey" value="if(!empty($EXPR$)){&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="&lt;?php&#10;if(!empty($EXPR$)){&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="empty@userDefined2" key=".empty" provider="builtin.php" topmost="true">
       <conditions />
