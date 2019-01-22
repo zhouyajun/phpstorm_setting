@@ -1,8 +1,13 @@
 <templateSet group="Laravel">
-  <template name="lar-model" value="namespace $NAMESPACE$;&#10;&#10;use Illuminate\Database\Eloquent\Model;&#10;use Illuminate\Database\Eloquent\SoftDeletes;&#10;&#10;class $MODELNAME$ extends Model&#10;{&#10;    use SoftDeletes;&#10;&#10;    protected $dates = ['deleted_at'];&#10;&#10;    protected $table = '$TABLENAME$';&#10;&#10;    protected $primaryKey = 'id';&#10;&#10;    protected $guarded = ['created_at', 'updated_at'];&#10;&#10;    public function __construct(array $attributes = [])&#10;    {&#10;        parent::__construct($attributes);&#10;    }&#10;    &#10;    public static function boot()&#10;    {&#10;        parent::boot();&#10;    }&#10;    &#10;}&#10;" description="laravel model" toReformat="false" toShortenFQNames="true">
+  <template name="larModel" value="namespace $NAMESPACE$;&#10;&#10;use Illuminate\Database\Eloquent\Model;&#10;use Illuminate\Database\Eloquent\SoftDeletes;&#10;&#10;class $MODELNAME$ extends Model&#10;{&#10;    use SoftDeletes;&#10;&#10;    protected $dates = ['deleted_at'];&#10;&#10;    protected $table = '$TABLENAME$';&#10;&#10;    protected $primaryKey = 'id';&#10;&#10;    protected $guarded = ['created_at', 'updated_at'];&#10;&#10;    public function __construct(array $attributes = [])&#10;    {&#10;        parent::__construct($attributes);&#10;    }&#10;    &#10;    public static function boot()&#10;    {&#10;        parent::boot();&#10;    }&#10;    &#10;}&#10;" description="laravel model" toReformat="false" toShortenFQNames="true">
     <variable name="NAMESPACE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="MODELNAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="TABLENAME" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="larApiPage" value="$page = $request-&gt;input('page',1);&#10;$limit = $request-&gt;input('limit',10);&#10;$offset = ($page-1)*$limit;$END$" description="laravel  api page" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
