@@ -3,6 +3,7 @@
     <ignoreFiles list=".dependency-info;CVS;" />
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="PushMsg" type="PHP" />
     </extensionMap>
   </component>
 </application>
