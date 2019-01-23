@@ -12,4 +12,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="larScope" value="public function scope$NAME$($query){&#10;    &#10;}" description="scope" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
