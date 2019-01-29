@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="larValidator" value="$arr = compact();&#10;$validator = app('validator')-&gt;make($arr, [&#10;    'pic_url' =&gt; ['required', 'max:500'],&#10;    'video_url' =&gt; ['max:500'],&#10;    'duration' =&gt; ['numeric'],&#10;    'is_own' =&gt; [&#10;        Rule::in(['0', '1'])&#10;    ]&#10;], [&#10;    'pic_url.required' =&gt; '图片必传',&#10;]);" toReformat="false" toShortenFQNames="true">
+  <template name="larValidator" value="$arr = compact();&#10;$validator = app('validator')-&gt;make($arr, [&#10;    'pic_url' =&gt; ['required', 'max:500'],&#10;    'video_url' =&gt; ['max:500'],&#10;    'duration' =&gt; ['numeric'],&#10;    'is_own' =&gt; [&#10;        Rule::in(['0', '1'])&#10;    ]&#10;], [&#10;    'pic_url.required' =&gt; '图片必传',&#10;]);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
