@@ -5,4 +5,15 @@
   <component name="EditorSettings">
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ff1a21" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bTODO\b.*">
+      <option name="FOREGROUND" value="ff0c33" />
+      <option name="FONT_TYPE" value="3" />
+    </pattern>
+  </component>
 </application>
