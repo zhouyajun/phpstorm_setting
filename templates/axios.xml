@@ -1,0 +1,14 @@
+<templateSet group="axios">
+  <template name="axios_get" value="axios.get('/user', {&#10;    params: {&#10;      ID: 12345&#10;    }&#10;  })&#10;  .then(function (response) {&#10;    console.log(response);&#10;  })&#10;  .catch(function (error) {&#10;    console.log(error);&#10;  })&#10;  .then(function () {&#10;    // always executed&#10;  });" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="axios_post" value="axios.post('/user', {&#10;    firstName: 'Fred',&#10;    lastName: 'Flintstone'&#10;  })&#10;  .then(function (response) {&#10;    console.log(response);&#10;  })&#10;  .catch(function (error) {&#10;    console.log(error);&#10;  });" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>

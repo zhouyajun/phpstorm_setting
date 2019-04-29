@@ -1,0 +1,17 @@
+<templateSet group="Vue">
+  <template name="vue-dev-url" value="&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;" description="vue开发地址" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="vue-pro-url" value="&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js&quot;&gt;&lt;/script&gt;" description="vue生产环境在线地址" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
