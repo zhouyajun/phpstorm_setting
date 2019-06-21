@@ -5,7 +5,6 @@
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="PushMsg" type="PHP" />
       <mapping pattern="README" type="PLAIN_TEXT" />
-      <mapping pattern="phpunit" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
