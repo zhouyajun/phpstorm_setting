@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list=".dependency-info;CVS;" />
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="PushMsg" type="PHP" />
+      <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
