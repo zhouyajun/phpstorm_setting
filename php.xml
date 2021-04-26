@@ -5,4 +5,5 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
   </component>
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
 </application>
