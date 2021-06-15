@@ -2,6 +2,7 @@
   <component name="MaterialThemeConfig">
     <option name="contrastMode" value="true" />
     <option name="highContrast" value="true" />
+    <option name="premium" value="true" />
     <option name="allowDataCollection" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
@@ -10,6 +11,5 @@
     <option name="accentColor" value="5b91ff" />
     <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="5068e994:16588b60f3d:-8000" />
-    <option name="version" value="5.5.0" />
   </component>
 </application>
