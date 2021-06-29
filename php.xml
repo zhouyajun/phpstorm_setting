@@ -14,11 +14,7 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/Applications/MAMP/bin/php/php7.3.24/lib/php" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.9.8">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="OAuth" />
@@ -76,7 +72,6 @@
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
