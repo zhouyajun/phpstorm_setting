@@ -13,5 +13,7 @@
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="ide.tree.ui.experimental" value="false" />
     <entry key="js.debugger.webconsole" value="false" />
+    <entry key="ide.new.stripes.ui" value="false" />
+    <entry key="ide.mac.transparentTitleBarAppearance" value="false" />
   </component>
 </application>

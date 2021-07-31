@@ -1,9 +1,0 @@
-<application>
-  <component name="ExportableFileTemplateSettings">
-    <includes_templates>
-      <template name="PHP Class Doc Comment.php" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="PHP File Header.php" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="PHP Function Doc Comment.php" reformat="true" live-template-enabled="true" enabled="true" />
-    </includes_templates>
-  </component>
-</application>
