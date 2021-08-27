@@ -5,10 +5,5 @@
         <option name="apiUrl" value="unix:///var/run/docker.sock" />
       </configuration>
     </remote-server>
-    <remote-server name="Docker" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-      </configuration>
-    </remote-server>
   </component>
 </application>
