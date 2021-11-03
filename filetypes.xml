@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list=".dependency-info;CVS" />
     <extensionMap>
+      <mapping ext="xltx" type="CSV/TSV" />
       <mapping pattern="PushMsg" type="PHP" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
