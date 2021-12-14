@@ -1,0 +1,10 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="categories">
+      <map>
+        <entry id="DATABASE" categories="键列;列;虚拟外键;注释" />
+        <entry id="QUERY_PLAN" categories="特性" />
+      </map>
+    </option>
+  </component>
+</application>
