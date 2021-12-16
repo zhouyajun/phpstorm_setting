@@ -1,10 +1,13 @@
 <application>
   <component name="GraziConfig">
-    <option name="enabledLanguages">
-      <set>
-        <option value="English (US)" />
-        <option value="Chinese" />
-      </set>
+    <option name="detectionContext">
+      <State>
+        <option name="disabled">
+          <set>
+            <option value="CHINESE" />
+          </set>
+        </option>
+      </State>
     </option>
   </component>
 </application>
