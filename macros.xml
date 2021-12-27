@@ -4,5 +4,6 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="1212" />
   </component>
 </application>
