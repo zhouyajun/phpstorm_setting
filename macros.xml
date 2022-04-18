@@ -1,9 +1,9 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="格式化并保存">
+    <macro name="格式化保存">
       <action id="ReformatCode" />
+      <action id="OptimizeImports" />
       <action id="SaveAll" />
     </macro>
-    <macro name="1212" />
   </component>
 </application>

@@ -21,7 +21,7 @@
   <action id="InsertLiveTemplate">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
-  <action id="Macro.格式化并保存">
+  <action id="Macro.格式化保存">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ParameterInfo" />
