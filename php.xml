@@ -1,4 +1,5 @@
 <application>
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="a50cc2ab-2978-4904-866d-24be279f77d2" name="PHP73" home="/Applications/MAMP/bin/php/php7.3.24/bin/php" debugger_id="php.debugger.XDebug" />
