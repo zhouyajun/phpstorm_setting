@@ -19,6 +19,5 @@
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="ide.new.stripes.ui" value="false" />
     <entry key="ide.mac.transparentTitleBarAppearance" value="false" />
-    <entry key="ide.experimental.ui" value="false" />
   </component>
 </application>
